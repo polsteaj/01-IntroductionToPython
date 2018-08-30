@@ -30,14 +30,14 @@ import rosegraphics as rg
 ###############################################################################
 window = rg.TurtleWindow()
 my_turtle = rg.SimpleTurtle('turtle')
-my_turtle.pen = rg.Pen('blue', 23)
+my_turtle.pen = rg.Pen('blue', 10)
 my_turtle.speed = 10
 
-your_turtle = rg.SimpleTurtle('turtle')
-your_turtle.pen = rg.Pen('red', 23)
-your_turtle.speed = 1
+your_turtle = rg.SimpleTurtle()
+your_turtle.pen = rg.Pen('red', 5)
+your_turtle.speed = 10
 your_turtle.pen_up()
-your_turtle.forward(30)
+your_turtle.forward(3)
 your_turtle.pen_down()
 size = 300
 for k in range(15):
